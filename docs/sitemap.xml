@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/Hugo_ejeplo/markdown/extensiones/index.html</loc>
+    <lastmod>2024-10-04T14:00:37+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Hugo_ejeplo/markdown/avanzado/index.html</loc>
+    <lastmod>2024-10-04T14:00:26+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Hugo_ejeplo/markdown/basico/index.html</loc>
+    <lastmod>2024-10-04T14:00:05+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Hugo_ejeplo/markdown/index.html</loc>
+    <lastmod>2024-10-04T13:59:52+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Hugo_ejeplo/personal/markdown/index.html</loc>
+    <lastmod>2024-10-04T13:26:16+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Hugo_ejeplo/personal/aficiones/index.html</loc>
+    <lastmod>2024-10-04T13:24:43+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Hugo_ejeplo/personal/programacion/index.html</loc>
+    <lastmod>2024-10-04T13:24:36+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Hugo_ejeplo/personal/index.html</loc>
+    <lastmod>2024-10-04T13:23:57+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Hugo_ejeplo/index.html</loc>
+    <lastmod>2024-10-04T14:00:37+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Hugo_ejeplo/categories/index.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/Hugo_ejeplo/tags/index.html</loc>
+  </url>
+</urlset>

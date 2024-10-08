@@ -1,0 +1,388 @@
+shutdown
+    2  shutdown now
+    3  la /boot/grub/grub.cfg 
+    4  cat /boot/grub/grub.cfg 
+    5  sudo cat /boot/grub/grub.cfg 
+    6  sudo nano /boot/grub/grub.cfg 
+    7  sudo nano /etc/default/grub
+    8  os-prober 
+    9  sudo os-prober 
+   10  sudo grub-mkconfig -o /boot/grub/grub.cfg 
+   11  reboot
+   12  sudo update-grub
+   13  apt list --installed | grep nvidia
+   14  sudo nano /etc/default/grub
+   15  sudo update-grub
+   16  reboot
+   17  ls
+   18  sudo apt upgrade
+   19  sudo apt install docker
+   20  sudo install docker
+   21  ls
+   22  sudo install docker /media/tgr4k8/SSD/docker
+   23  sudo install docker
+   24  sudo install /media/tgr4k8/SSD/docker docker
+   25  sudo apt install docker
+   26  install docker
+   27  docker apt install docker
+   28  sudo snap install docker
+   29  docker
+   30  sudo snap install writer
+   31  sudo snap install Writer
+   32  sudo snap install Writer de OpenOffice
+   33  sudo snap install WriterOpenOffice
+   34  sudo apt -get update
+   35  sudo apt -get upgrade
+   36  sudo apt  upgrade
+   37  sudo apt install default-jre
+   38  sudo dpkg -t *.deb
+   39  docker
+   40  docker images
+   41  docker images ls
+   42  shutdown
+   43  shutdown now
+   44  docker
+   45  docker pull ubuntu:latest
+   46  sudo docker pull ubuntu:latest
+   47  sudo usermod -a -G docker tgr4k8
+   48  newgrp docker
+   49  docker run -d -p 8080:80 -v ~/web/var/www/html
+   50  docker run -d -p 8080:80 -v ~/web/var/www/html --name web ubuntu:latest
+   51  docker images
+   52  docker image
+   53  docker image ls
+   54  docker
+   55  sudo apt update
+   56  sudo apt upgrade
+   57  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+   58  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+   59  sudo apt udpate
+   60  sudo apt update
+   61  sudo apt install-ce
+   62  sudo apt install docker-ce
+   63  sudo apt install docker
+   64  sudo apt install wmdocker
+   65  docker --version
+   66  docker
+   67  docker images
+   68  sudo usermod -aG docker $USER
+   69  sudo groupadd docker
+   70  sudo usermod -aG docker $USER
+   71  docker pull ubuntu:latest
+   72  sudo apt remove --purge docker-ce docker-ce-cli containerd.io
+   73  sudo apt remove --purge docker-ce docker-ce-cli *
+   74  sudo apt remove --purge docker *
+   75  docker
+   76  docker image
+   77  docker pull ubuntu:latest
+   78  sudo systemctl status docker
+   79  sudo systemctl start docker
+   80  sudo 
+   81  sudo systemctl enable docker
+   82  docker --version
+   83  sudo apt install docker-ce
+   84  sudo systemctl status docker
+   85  sudo apt remove --purge docker
+   86  docker --version
+   87  sudo apt remove --purge docker-ced0996 *
+   88  docker --version
+   89  sudo apt -get install ./docker-desktop-<arch>.deb
+   90  sudo apt update
+   91  sudo apt -get install ./docker-desktop-<arch>.deb
+   92  sudo apt install gnome-terminal
+   93  sudo apt -get install ./docker-desktop-<arch>.deb
+   94  sudo apt remove docker
+   95  docker 
+   96  docker pull ubuntu:latest
+   97  sudo systemctl start docker
+   98  sudo apt remove --purge docker-ce docker-ce-cli containerd.io
+   99  sudo apt remove --purge docker-ce docker-ce-cli *
+  100  sudo apt update
+  101  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+  102  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  103  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+  104  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+  105  docker --version
+  106  sudo apt update
+  107  sudo apt install docker-ce
+  108  systemctl list-unit-files | grep docker
+  109  sudo systemctl start docker
+  110  sudo systemctl status docker
+  111  journalctl -u docker
+  112  docker images
+  113  sudo usermod -aG docker $USER
+  114  docker pull ubuntu:latest
+  115  sudo docker pull ubuntu:latest
+  116  docker run -ti web -p 8080:80 -v /home/tgr4k8/web:/var/www/html
+  117  sudo docker run -ti web -p 8080:80 -v /home/tgr4k8/web:/var/www/html
+  118  docker ps -a
+  119  sudo docker ps -a
+  120  sudo docker iamges 
+  121  sudo docker images 
+  122  sudo docker run -ti web -p 8080:80 -v /home/tgr4k8/web:/var/www/html ubuntu:latest
+  123  run -ti --name web ubuntu:latest
+  124  docker run -ti --name web ubuntu:latest
+  125  sudo docker run -ti --name web ubuntu:latest
+  126  sudo docker run -ti web -p 8080:80 -v /home/tgr4k8/web:/var/www/html ubuntu:latest
+  127  sudo image 
+  128  sudo docker image
+  129  sudo docker ps -a
+  130  sudo docker images
+  131  sudo docker run -ti web -p 8080:80 -v /home/tgr4k8/web:/var/www/html 
+  132  sudo docker run -ti web -p 8080:80 -v /home/tgr4k8/web:/var/www/html
+  133  sudo docker start web
+  134  sudo docker ps -a
+  135  docker exit web
+  136  docker web exit
+  137  docker exec -ti web /bin/bash
+  138  sudo docker exec -ti web /bin/bash
+  139  docker ps -a
+  140  sudo docker ps -a
+  141  sudo docker exec -ti web /bin/bash
+  142  sudo docker stop web
+  143  sudo docker ps -a
+  144  docker run -ti -p 8080:80 -v /web:/var/www/html ubuntu:latest
+  145  sudo docker run -ti -p 8080:80 -v /web:/var/www/html ubuntu:latest
+  146  run -ti web
+  147  docker run -ti web
+  148  sudo docker run -ti web
+  149  sudo docker ps -a
+  150  sudo docker rm kind_brown 
+  151  sudo docker rm busy_mendeleev
+  152  sudo docker rm web
+  153  sudo docker images
+  154  sudo docker ps -a
+  155  sudo docker run -ti web -p 8080:80 -v /home/tgr4k8/web:/var/www/html 
+  156  sudo docker run -ti web -p 8080:80 -v /home/tgr4k8/web:/var/www/html ubuntu:latest
+  157  sudo docker run -ti --name web ubuntu:latest
+  158  sudo docker ps -a
+  159  sudo docker rm web
+  160  sudo docker run -ti -p 8080:80 -v /web:/var/www/html ubuntu:latest
+  161  sudo docker ps -a
+  162  sudo docker rm practical_kowalevki
+  163  sudo docker rm practical_kowalevski
+  164  sudo docker run -ti --name web -p 8080:80 -v /web:/var/www/html ubuntu:latest
+  165  sudo docker ps -a
+  166  sudo docker star web
+  167  sudo docker start web
+  168  sudo exec web -ti
+  169  sudo docker exec web -ti
+  170  sudo docker run  web -ti
+  171  sudo docker ps -a
+  172  sudo docker stop web
+  173  sudo docker start -ti web
+  174  sudo docker start -it  web
+  175  sudo docker start -i -t  web
+  176  sudo docker exect -ti web /bin/bash
+  177  sudo docker start web
+  178  sudo docker exec -ti web /bash
+  179  sudo docker exec -ti web /bin/bash
+  180  ls
+  181  cd docker
+  182  mkdir web:/var/www/html
+  183  mkdir web:
+  184  ls
+  185  cd web:
+  186  mkdir var
+  187  cd var
+  188  mkdir www
+  189  cd www
+  190  mkdir html
+  191  cd html
+  192  sudo snap phpstorm --clasic
+  193  sudo snap upgrade
+  194  snap 
+  195  sudo snap install phpstorm --clasic
+  196  sudo snap install phpstorm --classic
+  197  cd
+  198  docker exec -ti web bash
+  199  sudo docker exec -ti web bash
+  200  sudo docker rm web
+  201  sudo docker ps -a
+  202  sudo docker stop web
+  203  sudo docker run -ti --name web -p 8800:80 -v /web:/var/www/html ubuntu:latest
+  204  sudo docker ps -a
+  205  sudo docker rm web
+  206  sudo docker ps -a
+  207  sudo docker run -ti --name web -p 8800:80 -v /web:/var/www/html ubuntu:latest
+  208  apache2
+  209  service apache2 start
+  210  sudo systemctl status apache2
+  211  http://localhost/
+  212  sudo apt install apache2
+  213  sudo systemctl start apache2
+  214  sudo systemctl enable  apache2
+  215  sudo systemctl status  apache2
+  216  sudo systemctl restart  apache2
+  217  http://localhost/
+  218  sudo docker start web
+  219  sudo docker cp /home/tgr4k8/docker/web:/var/www/html/index.html web:/var/www/htlm
+  220  sudo docker exec -ti web bash
+  221  docker images
+  222  sudo docker images
+  223  sudo docker ps -a
+  224  sudo docker stop web
+  225  sudo docker ps -a
+  226  shutdown now
+  227  xinput list
+  228  xinput enable 12
+  229  xinput enable 4
+  230  xinput list
+  231  cat /proc/bus/input/devices grep -i touchpad
+  232  cat /proc/bus/input/devices grep  touchpad
+  233  touchpad
+  234  shutdonw now
+  235  shutdown now
+  236  sudo apt update
+  237  sudo apt upgrade
+  238  sudo apt install curl git -y
+  239  sudo apt update
+  240  sudo apt upgrade -y
+  241  sudo apt upgrade
+  242  shutdow now
+  243  shutdown  now
+  244  shutdown now
+  245  systemctml poweroff -i
+  246  sudo systemctml poweroff -i
+  247  poweroff
+  248  shutdown now
+  249  sudo service enable
+  250  sudo service enables
+  251  sudo service enabled
+  252  shutdown now
+  253  root shutdown now
+  254  sudo  shutdown now
+  255  sudo apt upgrade
+  256  sudo dpkg --configure -a
+  257  sudo apt update
+  258  sudo apt upgrade
+  259  sudo snap install hugo
+  260  sudo hugo -v
+  261  hugo version
+  262  sudo apt install curl git
+  263  curl version
+  264  curl --version
+  265  git --version
+  266  hugo version
+  267  cd hugo
+  268  mkdir hugo
+  269  cd hugo
+  270  cd
+  271  ls
+  272  cd hugo
+  273  mkdir tejero
+  274  cd
+  275  cd hugo
+  276  hugo new site tejeriko
+  277  ls
+  278  cd tejeriko
+  279  sudo apt install tree
+  280  git clone https://github.com/McShelby/hugo-theme-relearn.git~
+  281  git clone https://github.com/McShelby/hugo-theme-relearn.git
+  282  cd..
+  283  cd ..
+  284  ls
+  285  rm -r tejero
+  286  ls
+  287  cd tejeriko
+  288  ls
+  289  ls -a
+  290  ls
+  291  cd ..
+  292  nautilus .
+  293  nautilus
+  294  cd tejeriko
+  295  ls
+  296  cd hugo-theme-relearn/
+  297  ls
+  298  rm temapollas.zip
+  299  ls
+  300  cd ..
+  301  ls
+  302  cd ..
+  303  ls
+  304  cd hugo
+  305  cd tejeriko
+  306  cd
+  307  ls
+  308  imagenes
+  309  cd Imagenes
+  310  cd Imágenes
+  311  ls
+  312  cd Capturas\ de\ pantalla/
+  313  ls
+  314  nautilus
+  315  nautilus.
+  316  nautilus .
+  317  cd
+  318  ls
+  319  cd Escritorio
+  320  ls
+  321  ls -a
+  322  cd .
+  323  ls
+  324  cd
+  325  cd hugo
+  326  cd tejeriko
+  327  ls
+  328  cd hugo-theme-relearn/
+  329  ls
+  330  cd ..
+  331  ls
+  332  cd themes
+  333  cd ..
+  334  cd tejeriko
+  335  hugo server &
+  336  cd ...
+  337  cd ..
+  338  cd tejeriko
+  339  hugo server &
+  340  hugo new personal/_index.md
+  341  hugo new personal/tema1.md
+  342  hugo new personal/tema2.md
+  343  hugo new personal/tema3.md
+  344  hugo server &
+  345  hugo new markdown/_index.md
+  346  hugo new markdown/basico.md
+  347  hugo new markdown/avanzado.md
+  348  hugo new markdown/extensiones.md
+  349  hugo server &
+  350  cd
+  351  docker
+  352  docker version
+  353  cd var
+  354  cd /
+  355  ls
+  356  cd home
+  357  ls
+  358  cd trg4k8
+  359  tgr4k8
+  360  cd tgr4k8
+  361  ls
+  362  cd web
+  363  ls
+  364  cd
+  365  cd ..
+  366  ls
+  367  cd
+  368  ls
+  369  cd
+  370  cd ..
+  371  cd /
+  372  ls
+  373  cd var
+  374  ls
+  375  cd www
+  376  ls
+  377  cd html
+  378  ls
+  379  nautilus .
+  380  service apache2 status
+  381  curl index.html
+  382  ls
+  383  gedit index.html
+  384  service apache2 restart
+  385  service apache2 status
+  386  history
+4/10
+
