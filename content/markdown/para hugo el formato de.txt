@@ -1,0 +1,12 @@
+para hugo el formato de los ficheros markdown 
+para la configuracion:
+hugo.toml o fichero yaml
+
+
+crear sitio web hugo
+hugo new site teje
+
+front-matter:
+fichero que sirve para definir variables.
+hugo new personal/_index.md
+
